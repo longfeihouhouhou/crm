@@ -39,7 +39,7 @@ var detailRender=(function(){
                     data:json.stringify(data),
                     success:function(res){
                         if(res&&res.code==0){
-                            window.location.href="css3选择器.html";
+                            window.location.href="index.html";
                         }
                     }
                 });
